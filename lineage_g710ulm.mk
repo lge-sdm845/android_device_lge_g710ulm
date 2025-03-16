@@ -17,9 +17,6 @@
 # common judyln
 $(call inherit-product, device/lge/judyln-common/judyln-common.mk)
 
-PRODUCT_SOONG_NAMESPACES += \
-	$(DEVICE_PATH)
-
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/lge/g710ulm/g710ulm-vendor.mk)
 
